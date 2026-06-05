@@ -1,0 +1,141 @@
+{"request_id":"60123719-9337-4688-aaf5-b44f329443de","question":"How much did I spend on food in March 2025 after refunds?","latency_ms":7909,"status":"success"}
+{"request_id":"d9228d4b-ccd0-4209-869f-041eb9a6477c","question":"How much did I spend on food in March 2025?","latency_ms":7570,"status":"success"}
+{"request_id":"cae75da8-dd16-4964-9a5b-78d423ea0ceb","question":"How much did I spend on food in March 2025?","latency_ms":8863,"status":"success"}
+{"request_id":"4abc10a0-bf13-4dd2-a7a3-0f83039cc139","question":"Top 5 merchants by spend Jan to Mar 2025?","latency_ms":10068,"status":"success"}
+{"request_id":"69de5354-1f7b-4da3-ac20-1956a0ccde7a","question":"Did I spend more on food or travel?","latency_ms":9544,"status":"success"}
+{"request_id":"a1f8ef12-71a8-4e50-b632-e8f52c3c9cd7","question":"What is my portfolio worth today?","latency_ms":4501,"status":"success"}
+{"request_id":"197c02c9-af21-46bb-b4e1-e6ac2f5f6dc6","question":"Which funds performed best last year?","latency_ms":2948,"status":"success"}
+{"request_id":"93ca9da0-a6e4-4fac-bef1-d601b4eb094a","question":"Show recurring subscriptions","latency_ms":4303,"status":"success"}
+{"request_id":"22c62575-5880-4de8-9026-915d1008dc89","question":"How much did I spend on Swiggy?","latency_ms":26750,"status":"success"}
+{"request_id":"6ecd50a0-de5e-40d6-94f5-16d5b21d2f5a","question":"Ignore transfers, total spend Q1 2025?","latency_ms":5862,"status":"success"}
+{"request_id":"60aac0e8-af04-4d36-97a8-b19c77c49e1f","question":"Biggest expense category?","latency_ms":12634,"status":"success"}
+{"request_id":"57f40fa4-44bf-43c7-b3d4-301d0eec4ba8","question":"Any rent transactions in April 2025?","latency_ms":18285,"status":"success"}
+{"request_id":"f14cc9d1-b0cf-4b91-96ef-9532d1bdb188","question":"Compare food vs travel trend","latency_ms":7549,"status":"success"}
+{"request_id":"5887c2d3-05d7-4cb4-b7e6-ef8a527bcd19","question":"What is my realised return?","latency_ms":5224,"status":"success"}
+{"request_id":"c7e48205-36e0-40f4-ba35-35f5ac786caa","question":"How much did I spend on food in March 2025?","latency_ms":6141,"status":"success"}
+{"request_id":"a342f614-b9e0-452b-b73f-364f5ba9259b","question":"Do I have rent data in April 2025?","latency_ms":21025,"status":"success"}
+{"request_id":"4a33e435-ed46-494e-aa78-61323b9b6ee6","question":"How much did I spend on food in March 2025?","latency_ms":7979,"status":"success"}
+{"request_id":"35f309fc-9147-4623-95b5-a036725bc70f","question":"Top 5 merchants by spend Jan to Mar 2025?","latency_ms":7823,"status":"success"}
+{"request_id":"e5ccd6d7-df52-47b9-ab26-479fe2bbdf28","question":"Did I spend more on food or travel?","latency_ms":9030,"status":"success"}
+{"request_id":"1a9dfbdc-2406-43da-a3fd-41ce54b4b726","question":"What is my portfolio worth today?","latency_ms":6544,"status":"success"}
+{"request_id":"7a390257-5148-454b-9ce5-3820a9825cfa","question":"Which funds performed best last year?","latency_ms":15594,"status":"success"}
+{"request_id":"fac449bd-f7fa-4f27-b35e-5c14d06657f6","question":"Show recurring subscriptions","latency_ms":3956,"status":"success"}
+{"request_id":"21330866-1c77-4dd4-a62c-a08b387d83ca","question":"How much did I spend on Swiggy?","latency_ms":22963,"status":"success"}
+{"request_id":"5d091dbf-dff2-47df-b3d1-221eb543cb7c","question":"Ignore transfers, total spend Q1 2025?","latency_ms":26808,"status":"success"}
+{"request_id":"dda34f50-7d00-434f-858b-cbab9439778a","question":"How much did I spend on Swiggy?","latency_ms":21708,"status":"success"}
+{"request_id":"0203a01e-a082-459c-8b0f-2128d994baea","question":"Biggest expense category?","latency_ms":22448,"status":"success"}
+{"request_id":"9a4c74ef-631c-494d-8ed7-36883aeb7842","question":"Any rent transactions in April 2025?","latency_ms":20173,"status":"success"}
+{"request_id":"d25c991c-256e-4620-86e0-b2b30ce5498f","question":"Compare food vs travel trend","latency_ms":19193,"status":"success"}
+{"request_id":"e68c2ce3-4ffa-4579-8660-7153c8f43286","question":"What is my realised return?","latency_ms":4751,"status":"success"}
+{"request_id":"0309ccbe-915b-490e-9aaa-b58b445c6010","question":"How much did I spend on food in March 2025?","latency_ms":10231,"status":"success"}
+{"request_id":"6dc995b6-40fa-4cda-9738-a4535913d488","question":"Top 5 merchants by spend Jan to Mar 2025?","latency_ms":7919,"status":"success"}
+{"request_id":"02d5e318-a990-426a-b0df-a9680e67aa12","question":"Did I spend more on food or travel?","latency_ms":10577,"status":"success"}
+{"request_id":"5f208ffe-6bc6-40bc-a4ae-6f28ff426658","question":"What is my portfolio worth today?","latency_ms":4590,"status":"success"}
+{"request_id":"40249506-bef6-4fb2-a526-8882858a6e73","question":"Which funds performed best last year?","latency_ms":19342,"status":"success"}
+{"request_id":"ad723217-6582-4c58-8811-88a0804aa2f2","question":"Show recurring subscriptions","latency_ms":4038,"status":"success"}
+{"request_id":"0d55c14c-4c24-44c3-b0ef-ee14d754861e","question":"How much did I spend on Swiggy?","latency_ms":7635,"status":"success"}
+{"request_id":"89c54a88-4366-4925-a8fc-89caf357074c","question":"Ignore transfers, total spend Q1 2025?","latency_ms":22986,"status":"success"}
+{"request_id":"91aed70c-bfa8-4758-9d60-3e5f03bc657c","question":"Biggest expense category?","latency_ms":18359,"status":"success"}
+{"request_id":"ca307684-99d5-4d00-9091-7dd6a5601482","question":"Any rent transactions in April 2025?","latency_ms":17612,"status":"success"}
+{"request_id":"2b018dfc-a53d-42f9-b168-89c3c6490a23","question":"Compare food vs travel trend","latency_ms":26459,"status":"success"}
+{"request_id":"0007576c-46ac-40a9-92c4-b50fdab1e11a","question":"What is my realised return?","latency_ms":11647,"status":"success"}
+{"request_id":"58fd1b89-f41c-4a1a-8502-6405d198c0a1","question":"How much did I spend on food in March 2025?","latency_ms":9946,"status":"success"}
+{"request_id":"fe6ec105-9bd7-41e8-b863-f42b45a8b2b0","question":"Top 5 merchants by spend Jan to Mar 2025?","latency_ms":8061,"status":"success"}
+{"request_id":"0f267ddf-1bb5-492e-983e-a9142a7fbd53","question":"Did I spend more on food or travel?","latency_ms":16244,"status":"success"}
+{"request_id":"f46d1425-377a-4ab2-9083-cec7b79f3190","question":"What is my portfolio worth today?","latency_ms":4767,"status":"success"}
+{"request_id":"355237c0-4489-4f2d-8dfe-0ef15055a3c9","question":"Which funds performed best last year?","latency_ms":25463,"status":"success"}
+{"request_id":"4bdd994d-2417-422f-9515-a0076cbe94fe","question":"Show recurring subscriptions","latency_ms":5734,"status":"success"}
+{"request_id":"034bdd81-0ae6-4c3a-a432-3f879a3dd3b6","question":"How much did I spend on Swiggy?","latency_ms":5682,"status":"success"}
+{"request_id":"2bd57473-9a3a-4112-8f32-b8209d7b53f5","question":"Ignore transfers, total spend Q1 2025?","latency_ms":20521,"status":"success"}
+{"request_id":"77c0f11e-2c2f-4236-a126-93bc0b99c6cf","question":"Biggest expense category?","latency_ms":18386,"status":"success"}
+{"request_id":"9c396850-457e-4d9f-b3c3-f6a72801ff6b","question":"Any rent transactions in April 2025?","latency_ms":16410,"status":"success"}
+{"request_id":"972d0e7c-299c-46d3-a81a-54b3c4b97fa2","question":"Compare food vs travel trend","latency_ms":11761,"status":"success"}
+{"request_id":"cca38aff-d889-462e-9add-89c16b8d684b","question":"What is my realised return?","latency_ms":10647,"status":"success"}
+{"request_id":"f96cfd3f-970e-4650-bb7b-009fe6b3f49d","question":"How much did I spend on food in March 2025?","latency_ms":30960,"status":"success"}
+{"request_id":"06eaf5dd-48c9-45db-91d2-c78ef0cc2942","question":"Top 5 merchants by spend Jan to Mar 2025?","latency_ms":23708,"status":"success"}
+{"request_id":"2f0479fa-983f-4d70-a850-fa43a0b20d5b","question":"Did I spend more on food or travel?","latency_ms":35117,"status":"success"}
+{"request_id":"03c94766-ef8a-4017-8274-fa75f77ff6d2","question":"What is my portfolio worth today?","latency_ms":4012,"status":"success"}
+{"request_id":"4b5af265-dc27-4c85-b90c-0a3592da2e44","question":"Which funds performed best last year?","latency_ms":25210,"status":"success"}
+{"request_id":"cd1cd174-760d-455b-a048-0da67dac3ae8","question":"Show recurring subscriptions","latency_ms":5458,"status":"success"}
+{"request_id":"acafed30-3c1f-478c-bd48-ad3ab1951ec7","question":"How much did I spend on Swiggy?","latency_ms":29126,"status":"success"}
+{"request_id":"98b80f55-548e-47a2-85cc-e3acbc1e4a23","question":"Ignore transfers, total spend Q1 2025?","latency_ms":20477,"status":"success"}
+{"request_id":"5901f809-add7-4aed-a416-18836372487b","question":"Biggest expense category?","latency_ms":16792,"status":"success"}
+{"request_id":"b287b082-cd47-4741-bed0-1d52857bc455","question":"Any rent transactions in April 2025?","latency_ms":25063,"status":"success"}
+{"request_id":"fce488db-4ec0-494f-9b1e-2765eadf538c","question":"Compare food vs travel trend","latency_ms":22825,"status":"success"}
+{"request_id":"04c7dde3-2b82-46f1-ba58-b90293e35c42","question":"What is my realised return?","latency_ms":6038,"status":"success"}
+{"request_id":"f0096f7f-b42e-4aa5-af19-c8676226cf7f","question":"How much did I spend on food in March 2025?","latency_ms":28982,"status":"success"}
+{"request_id":"8df1210d-c1a6-4fa3-88fb-9e7a8048f700","question":"Top 5 merchants by spend Jan to Mar 2025?","latency_ms":19207,"status":"success"}
+{"request_id":"af7fad52-aab4-482f-8eb1-9caa18d10339","question":"How much did I spend on food in March 2025?","latency_ms":28282,"status":"success"}
+{"request_id":"b797176e-1ccf-47f2-8f8c-53e9d666cb4e","question":"How much did I spend on food in March 2025?","latency_ms":9357,"status":"success"}
+{"request_id":"6fbcb27c-621d-49aa-9e40-681d9676d220","question":"Top 5 merchants by spend Jan to Mar 2025?","latency_ms":8923,"status":"success"}
+{"request_id":"8b760146-46ee-487d-a333-c0be8ecf1a1f","question":"Did I spend more on food or travel?","latency_ms":9430,"status":"success"}
+{"request_id":"241d7b78-b4e9-4c87-a711-6143e44a686d","question":"What is my portfolio worth today?","latency_ms":7117,"status":"success"}
+{"request_id":"82e3cc6a-75b1-49ec-8432-c4058d2cf043","question":"Which funds performed best last year?","latency_ms":24329,"status":"success"}
+{"request_id":"a60a29ae-34bc-4b48-a028-a1e4c32ca139","question":"Show recurring subscriptions","latency_ms":4520,"status":"success"}
+{"request_id":"fccc141e-e243-4598-843e-fd7a6229ef40","question":"How much did I spend on Swiggy?","latency_ms":25984,"status":"success"}
+{"request_id":"70bcf76b-5835-469e-aa03-776a212004b1","question":"Ignore transfers, total spend Q1 2025?","latency_ms":19978,"status":"success"}
+{"request_id":"7ed6ab20-a240-4c92-80b0-55e8019030d8","question":"Biggest expense category?","latency_ms":22131,"status":"success"}
+{"request_id":"571b897d-9912-4ec0-a3bd-a61773d481a6","question":"Any rent transactions in April 2025?","latency_ms":19203,"status":"success"}
+{"request_id":"0e17dff6-8dd6-4ac8-9abc-e86b4fafd8b2","question":"Compare food vs travel trend","latency_ms":21299,"status":"success"}
+{"request_id":"6a504d53-8d61-4e68-92aa-71e62e2734bb","question":"What is my realised return?","latency_ms":7338,"status":"success"}
+{"request_id":"bb06432e-2555-4706-9ca6-7dd516abe31a","question":"How much did I spend on food in March 2025?","latency_ms":8302,"status":"success"}
+{"request_id":"14147d45-0690-413d-926f-9f0326ac77fc","question":"Top 5 merchants by spend Jan to Mar 2025?","latency_ms":6596,"status":"success"}
+{"request_id":"6b00d12f-da8e-4f27-9f27-67fd0896128b","question":"Did I spend more on food or travel?","latency_ms":7937,"status":"success"}
+{"request_id":"9db08692-fbfd-455f-9f96-164c144d987e","question":"What is my portfolio worth today?","latency_ms":5046,"status":"success"}
+{"request_id":"a58b811a-c6d1-4827-9261-bcf1f478f4c4","question":"Which funds performed best last year?","latency_ms":15382,"status":"success"}
+{"request_id":"1f07c2e8-3629-4efd-b56c-469767180a22","question":"Show recurring subscriptions","latency_ms":5022,"status":"success"}
+{"request_id":"b7d3d6f9-182a-472a-a83e-405d6ea1f46c","question":"How much did I spend on Swiggy?","latency_ms":32648,"status":"success"}
+{"request_id":"ae8d23cf-012b-4c27-802f-c2a90ad81197","question":"Ignore transfers, total spend Q1 2025?","latency_ms":19870,"status":"success"}
+{"request_id":"e03efae8-6102-4082-8586-3e2ac9b23f3b","question":"Biggest expense category?","latency_ms":22868,"status":"success"}
+{"request_id":"d727a669-0c22-4693-bb20-c27cfcdb1656","question":"Any rent transactions in April 2025?","latency_ms":22471,"status":"success"}
+{"request_id":"e6cfc44c-0218-4ebc-8b1c-50397addc624","question":"Compare food vs travel trend","latency_ms":18486,"status":"success"}
+{"request_id":"b2bc5aec-6504-46fd-aeae-0a9b1c469ec4","question":"What is my realised return?","latency_ms":5435,"status":"success"}
+{"request_id":"5f139c33-0e1d-44d9-a080-1083778e82ee","question":"How much did I spend on food in March 2025?","latency_ms":7492,"status":"success"}
+{"request_id":"828ce9bc-beb6-4600-9f0a-59e16da7ae08","question":"Top 5 merchants by spend Jan to Mar 2025?","latency_ms":7137,"status":"success"}
+{"request_id":"03372218-f7a8-47ac-9335-c535050349b3","question":"Did I spend more on food or travel?","latency_ms":11895,"status":"success"}
+{"request_id":"f040ef7e-9570-43ac-b9c9-0450ee9e6f30","question":"What is my portfolio worth today?","latency_ms":11446,"status":"success"}
+{"request_id":"874e2a05-f0c2-4db7-a866-1a855a2f53d9","question":"Which funds performed best last year?","latency_ms":26099,"status":"success"}
+{"request_id":"9ef13a6e-dbdf-4f2e-9c2e-67189cdbc648","question":"Show recurring subscriptions","latency_ms":5005,"status":"success"}
+{"request_id":"e649a93b-45b2-4d35-9b27-e2cd5aadfe6d","question":"How much did I spend on Swiggy?","latency_ms":22459,"status":"success"}
+{"request_id":"1563c895-cda9-4ffa-87a2-5cf35922a749","question":"Ignore transfers, total spend Q1 2025?","latency_ms":23991,"status":"success"}
+{"request_id":"c9de128e-a039-4d36-81fa-e0babbfc20f8","question":"Biggest expense category?","latency_ms":22729,"status":"success"}
+{"request_id":"e66a0ddc-f936-4432-8514-e5c8f5ec51ba","question":"Any rent transactions in April 2025?","latency_ms":27081,"status":"success"}
+{"request_id":"dc1ee361-192c-47bf-b35b-e131d6806cba","question":"Compare food vs travel trend","latency_ms":13832,"status":"success"}
+{"request_id":"0c2cd841-a36a-40e2-99bd-3de996b07451","question":"What is my realised return?","latency_ms":6519,"status":"success"}
+{"request_id":"24f70033-4d03-4438-8186-c1a32ea5349d","question":"How much did I spend on food in March 2025?","latency_ms":6247,"status":"success"}
+{"request_id":"4a933f89-2b97-4203-ab15-e0322c5776d0","question":"Top 5 merchants by spend Jan to Mar 2025?","latency_ms":7285,"status":"success"}
+{"request_id":"4d0a6e5c-76ff-4d9d-b143-64d3e5332fbc","question":"Did I spend more on food or travel?","latency_ms":7933,"status":"success"}
+{"request_id":"8d6ddccf-0df7-4bc5-9795-5c7da176db23","question":"What is my portfolio worth today?","latency_ms":3953,"status":"success"}
+{"request_id":"c3ceeeea-41e8-4189-a154-87443f315722","question":"Which funds performed best last year?","latency_ms":25308,"status":"success"}
+{"request_id":"d7e24f0f-a14c-4e74-97ab-5b23bf57f99a","question":"Show recurring subscriptions","latency_ms":4480,"status":"success"}
+{"request_id":"a04e440d-2c5c-49bd-9d35-c0be4c8cc854","question":"How much did I spend on Swiggy?","latency_ms":18717,"status":"success"}
+{"request_id":"e59a4e20-8a41-40e4-b9c1-74913e583ec0","question":"Ignore transfers, total spend Q1 2025?","latency_ms":20144,"status":"success"}
+{"request_id":"5505f66a-d7f2-4118-bc21-965cc6555c5e","question":"Biggest expense category?","latency_ms":26611,"status":"success"}
+{"request_id":"40f705ce-7104-4197-9326-99d53963bbc7","question":"Any rent transactions in April 2025?","latency_ms":21463,"status":"success"}
+{"request_id":"3088eb30-007b-4afb-971f-f1d9966a39a8","question":"Compare food vs travel trend","latency_ms":29731,"status":"success"}
+{"request_id":"46a2ed0c-899a-44f8-8bb2-0cc00f5fcd5f","question":"What is my realised return?","latency_ms":6497,"status":"success"}
+{"request_id":"b9d85fcc-1028-4429-9b8d-aac14d7812f7","question":"How much did I spend on food in March 2025?","latency_ms":6728,"status":"success"}
+{"request_id":"f291ce57-36d4-4a28-bc29-d7d03f1cdb83","question":"Top 5 merchants by spend Jan to Mar 2025?","latency_ms":9467,"status":"success"}
+{"request_id":"aa4fa750-a7eb-4cb6-ac18-18f98d1a331b","question":"Did I spend more on food or travel?","latency_ms":14716,"status":"success"}
+{"request_id":"c9d64569-ce36-4579-9728-b424046964e4","question":"What is my portfolio worth today?","latency_ms":4172,"status":"success"}
+{"request_id":"a07fb2ca-7f71-4199-ba3e-fc3563853bb6","question":"Which funds performed best?","latency_ms":3477,"status":"success"}
+{"request_id":"239d071f-c0bf-4769-abb6-5fd5068340eb","question":"Show recurring subscriptions","latency_ms":4258,"status":"success"}
+{"request_id":"c6fa41bd-1782-4017-84f1-0e8a7cc1f931","question":"How much did I spend on Swiggy?","latency_ms":29977,"status":"success"}
+{"request_id":"9d8e839d-04e9-427f-ac3d-10cf2c58f93c","question":"Ignore transfers, total spend?","latency_ms":21907,"status":"success"}
+{"request_id":"e8d0efae-74ab-4bb0-9abc-fb64839efd5b","question":"Biggest expense category?","latency_ms":22390,"status":"success"}
+{"request_id":"d138d6bc-82d9-4c68-8deb-7f9979fb91b5","question":"Any rent transactions?","latency_ms":21772,"status":"success"}
+{"request_id":"9498d784-1f83-4473-9760-795deca8550d","question":"Compare food vs travel trend","latency_ms":18169,"status":"success"}
+{"request_id":"bc57ae0b-0132-4a5f-93b7-53c138d2084b","question":"What is my realised return?","latency_ms":5963,"status":"success"}
+{"request_id":"189e8cea-59c2-4af8-806f-518238de40fa","question":"How much did I spend on Mars Travel Agency?","latency_ms":29948,"status":"success"}
+{"request_id":"65ee3cb8-ae7a-4fde-8e4e-b2dbf984b330","question":"How much did I spend on food in March 2025?","latency_ms":9542,"status":"success"}
+{"request_id":"8df3836b-0aab-4753-afc9-d79b5fa6cc22","question":"Top 5 merchants by spend Jan to Mar 2025?","latency_ms":9756,"status":"success"}
+{"request_id":"0316c82a-6717-47e8-add1-f54b61915211","question":"Did I spend more on food or travel?","latency_ms":12810,"status":"success"}
+{"request_id":"9cfdc80e-839b-41e4-8f3f-bf5be0b00595","question":"What is my portfolio worth today?","latency_ms":5651,"status":"success"}
+{"request_id":"abd137a4-40c6-42a0-ba97-bbd78548aa63","question":"Show recurring subscriptions","latency_ms":3989,"status":"success"}
+{"request_id":"729da323-93a2-4b53-8f0c-8d2e37305fd0","question":"What is my realised return?","latency_ms":4430,"status":"success"}
+{"request_id":"e815a5d6-5e37-4855-ac01-b05c005fe1a3","question":"How much did I spend on food in January 2025?","latency_ms":5358,"status":"success"}
+{"request_id":"db205036-13f1-4ce8-acc2-2013a507c69b","question":"How much did I spend on food in February 2025?","latency_ms":5728,"status":"success"}
+{"request_id":"1f9fab2b-1d69-431b-b678-3aca49601f70","question":"Top 3 merchants by spend Jan to Mar 2025?","latency_ms":7707,"status":"success"}
+{"request_id":"779acab3-46e6-452d-93c5-18376add21b7","question":"What is my portfolio value?","latency_ms":4149,"status":"success"}
+{"request_id":"99d12ad0-5778-4c20-9128-ab72d5185aa6","question":"Did I spend more on travel or food?","latency_ms":11822,"status":"success"}
+{"request_id":"981b38b1-110f-405f-a2ad-bdf32b9e22d7","question":"Show recurring payments","latency_ms":4161,"status":"success"}
