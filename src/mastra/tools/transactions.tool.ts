@@ -9,7 +9,7 @@ import {
   merchantSpend,
 } from "../../tools/transactions";
 
-console.log("=== transactions.tool.ts LOADED (new version) ===");
+console.log("=== transactions.tool.ts loaded (new version) goes herer ===");
 
 export const queryTransactionsTool = createTool({
   id: "query_transactions",

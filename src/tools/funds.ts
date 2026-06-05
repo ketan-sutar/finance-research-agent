@@ -9,7 +9,6 @@ type FundReturnInput = {
 export async function fundReturn(input: FundReturnInput) {
   const { fundName, startDate, endDate } = input;
 
-  // 1. Find fund
   const fundRes = await pool.query(
     `
     SELECT id, name
@@ -24,7 +23,6 @@ export async function fundReturn(input: FundReturnInput) {
 
   const fund = fundRes.rows[0];
 
-  // 2. Get NAV at start date (closest previous NAV)
   const startNavRes = await pool.query(
     `
     SELECT nav
@@ -36,7 +34,6 @@ export async function fundReturn(input: FundReturnInput) {
     [fund.id, startDate],
   );
 
-  // 3. Get NAV at end date (closest previous NAV)
   const endNavRes = await pool.query(
     `
     SELECT nav
@@ -57,7 +54,6 @@ export async function fundReturn(input: FundReturnInput) {
   const startNAV = Number(startNavRes.rows[0].nav);
   const endNAV = Number(endNavRes.rows[0].nav);
 
-  // 4. Return calculation
   const returnPercent = ((endNAV - startNAV) / startNAV) * 100;
 
   return {

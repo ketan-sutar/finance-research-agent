@@ -2,7 +2,6 @@ import { pool } from "../src/db/db";
 
 async function setup() {
   try {
-    // Transactions Table
     await pool.query(`
       CREATE TABLE IF NOT EXISTS transactions (
         id TEXT PRIMARY KEY,
@@ -16,7 +15,6 @@ async function setup() {
       );
     `);
 
-    // Funds Table
     await pool.query(`
       CREATE TABLE IF NOT EXISTS funds (
         id TEXT PRIMARY KEY,
@@ -25,7 +23,6 @@ async function setup() {
       );
     `);
 
-    // Fund NAVs Table
     await pool.query(`
       CREATE TABLE IF NOT EXISTS fund_navs (
         fund_id TEXT REFERENCES funds(id),
@@ -35,7 +32,6 @@ async function setup() {
       );
     `);
 
-    // Holdings Table
     await pool.query(`
       CREATE TABLE IF NOT EXISTS holdings (
         fund_id TEXT REFERENCES funds(id),
@@ -47,10 +43,7 @@ async function setup() {
       );
     `);
 
-    // ==========================
-    // Indexes for faster queries
-    // ==========================
-
+  //  indexes
     await pool.query(`
       CREATE INDEX IF NOT EXISTS idx_txn_date
       ON transactions(transaction_date);

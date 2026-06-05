@@ -28,7 +28,6 @@ router.post("/ask", async (req, res) => {
       latency_ms: Date.now() - start,
       status: "success",
     });
-    // console.log(JSON.stringify(result, null, 2));
 
 
     return res.json({

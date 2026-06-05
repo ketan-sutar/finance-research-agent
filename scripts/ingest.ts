@@ -28,7 +28,6 @@ async function ingest() {
     console.log("Funds:", funds.length);
     console.log("Holdings:", holdings.length);
 
-    // Transactions
     for (const txn of transactions) {
       await pool.query(
         `
@@ -60,7 +59,6 @@ async function ingest() {
 
     console.log("Transactions imported");
 
-    // Funds
     for (const fund of funds) {
       await pool.query(
         `
@@ -78,7 +76,6 @@ async function ingest() {
 
     console.log("Funds imported");
 
-    // NAV history
     for (const fund of funds) {
       for (const navPoint of fund.nav) {
         await pool.query(
@@ -98,7 +95,7 @@ async function ingest() {
 
     console.log("NAV history imported");
 
-    // Holdings
+    
     for (const holding of holdings) {
       const fund = funds.find((f: any) => f.id === holding.fund_id);
       await pool.query(

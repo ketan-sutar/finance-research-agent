@@ -3,21 +3,15 @@ export function canonicalMerchant(name: string): string {
 
   const n = name.toUpperCase().trim();
 
-  // normalize separators first
   const clean = n
-    .replace(/[^A-Z0-9]/g, " ")   // remove symbols like / . -
-    .replace(/\s+/g, " ")        // collapse spaces
+    .replace(/[^A-Z0-9]/g, " ")   
+    .replace(/\s+/g, " ")        
     .trim();
 
-  // tokenize for better matching
   const tokens = clean.split(" ");
 
-  // helper match
   const has = (x: string) => clean.includes(x);
 
-  // -------------------------
-  // HIGH CONFIDENCE GROUPS
-  // -------------------------
 
   if (has("SWIGGY")) return "Swiggy";
   if (has("ZOMATO")) return "Zomato";
@@ -54,7 +48,6 @@ export function canonicalMerchant(name: string): string {
   if (has("HDFC")) return "HDFC";
 
   if (has("NEFT")) {
-    // special case handling
     if (has("RENT")) return "Rent Transfer";
     if (has("SELF")) return "Internal Transfer";
     if (has("ICICI")) return "ICICI Transfer";
@@ -69,6 +62,5 @@ export function canonicalMerchant(name: string): string {
 
   if (has("ZEPTO")) return "Zepto";
 
-  // fallback: first meaningful token
   return tokens[0] || "UNKNOWN";
 }

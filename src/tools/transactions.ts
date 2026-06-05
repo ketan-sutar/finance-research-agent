@@ -54,12 +54,7 @@ export async function queryTransactions(input: QueryInput) {
   };
 }
 
-//
-// 2. AGGREGATE SPEND (CRITICAL FIX)
-// - excludes transfers
-// - handles refunds correctly using ABS()
-// - ensures deterministic spend values
-//
+
 export async function aggregateSpend(
   category: string,
   startDate: string,
@@ -80,7 +75,6 @@ export async function aggregateSpend(
     [category, startDate, endDate],
   );
 
-  // Step 9: No Data Handling
   if (result.rows.length === 0 || result.rows[0].total === null) {
     return {
       noData: true,
@@ -97,11 +91,8 @@ export async function aggregateSpend(
     endDate,
   };
 }
-//
-// 3. TOP MERCHANTS (FIXED TYPE + SAFETY)
-// - ensures numeric conversion
-// - stable ranking
-//
+
+
 export async function topMerchants(
   startDate: string,
   endDate: string,

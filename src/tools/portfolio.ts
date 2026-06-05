@@ -1,7 +1,6 @@
 import { pool } from "../db/db";
 
 export async function portfolioAnalysis() {
-  // 1. Get all holdings
   const holdingsRes = await pool.query(`
     SELECT h.*, f.name
     FROM holdings h
@@ -14,7 +13,6 @@ export async function portfolioAnalysis() {
   let portfolioValue = 0;
 
   for (const h of holdings) {
-    // 2. Get latest NAV for each fund
     const navRes = await pool.query(
       `
       SELECT nav

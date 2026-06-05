@@ -18,7 +18,6 @@ function detectFrequency(dates: string[]) {
 }
 
 export async function detectRecurringSubscriptions() {
-  // 1. Group transactions by merchant
   const res = await pool.query(`
     SELECT
       merchant_canonical,
@@ -36,10 +35,8 @@ export async function detectRecurringSubscriptions() {
   for (const row of res.rows) {
     const freq = detectFrequency(row.dates);
 
-    // monthly-ish subscription logic
     const isMonthly = freq >= 25 && freq <= 35;
 
-    // check amount consistency
     const amounts = row.amounts.map(Number);
     const avg = amounts.reduce((a, b) => a + b, 0) / amounts.length;
 

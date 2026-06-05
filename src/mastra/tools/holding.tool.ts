@@ -1,5 +1,3 @@
-// holding.tool.ts
-
 import { createTool } from "@mastra/core/tools";
 import { z } from "zod";
 import { holdingReturn, rankAllHoldings } from "../../tools/holdingReturn";
