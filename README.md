@@ -1,30 +1,173 @@
-# ai-agent
+# Finance Research Agent (Tara)
 
-Welcome to your new [Mastra](https://mastra.ai/) project! We're excited to see what you'll build.
+## Overview
 
-## Getting Started
+Tara is a finance-research agent built using Mastra, PostgreSQL, and OpenAI. It answers natural language questions about personal finance data, including spending analysis, merchant insights, fund performance, portfolio valuation, and holding returns.
 
-Start the development server:
+The agent uses tool calling to retrieve and compute real values from PostgreSQL and never generates financial figures without database-backed evidence.
 
-```shell
+---
+
+## Features
+
+* Transaction search and filtering
+* Category-wise spending analysis
+* Merchant spend analysis
+* Fund period return calculations
+* Portfolio valuation
+* Holding realised return calculations
+* Recurring subscription detection
+* Transfer exclusion from spending calculations
+* Refund-aware spending calculations
+* No-data handling
+* Evaluation suite with automated tests
+
+---
+
+## Technology Stack
+
+* TypeScript
+* Mastra SDK
+* PostgreSQL
+* OpenAI
+* Express
+
+---
+
+## Project Structure
+
+```text
+src/
+├── agent/
+├── tools/
+├── db/
+├── routes/
+├── eval/
+
+scripts/
+├── ingest.ts
+
+data/
+├── sample_a/
+├── sample_b/
+└── sample_c/
+```
+
+---
+
+## Installation
+
+```bash
+npm install
+```
+
+---
+
+## Environment Variables
+
+Create a `.env` file:
+
+```env
+DATABASE_URL=postgres://postgres:password@localhost:5432/provue_tara
+OPENAI_API_KEY=your_key
+```
+
+---
+
+## Database Setup
+
+Create the database:
+
+```bash
+createdb provue_tara
+```
+
+Run ingest:
+
+```bash
+DATA_DIR=./data/sample_a
+npx tsx scripts/ingest.ts
+```
+
+---
+
+## Running the Application
+
+```bash
 npm run dev
 ```
 
-Open [http://localhost:4111](http://localhost:4111) in your browser to access [Mastra Studio](https://mastra.ai/docs/studio/overview). It provides an interactive UI for building and testing your agents, along with a REST API that exposes your Mastra application as a local service. This lets you start building without worrying about integration right away.
+Server starts on:
 
-You can start editing files inside the `src/mastra` directory. The development server will automatically reload whenever you make changes.
+```text
+http://localhost:3000
+```
 
-## Learn more
+---
 
-To learn more about Mastra, visit our [documentation](https://mastra.ai/docs/). Your bootstrapped project includes example code for [agents](https://mastra.ai/docs/agents/overview), [tools](https://mastra.ai/docs/agents/using-tools), [workflows](https://mastra.ai/docs/workflows/overview), [scorers](https://mastra.ai/docs/evals/overview), and [observability](https://mastra.ai/docs/observability/overview).
+## API
 
-If you're new to AI agents, check out our [course](https://mastra.ai/learn) and [YouTube videos](https://youtube.com/@mastra-ai). You can also join our [Discord](https://discord.gg/BTYqqHKUrf) community to get help and share your projects.
+### POST /ask
 
-## Deploy to the Mastra platform
+Request:
 
-The [Mastra platform](https://projects.mastra.ai) provides two products for deploying and managing AI applications built with the Mastra framework:
+```json
+{
+  "question": "How much did I spend on food in March 2025?"
+}
+```
 
-- **Studio**: A hosted visual environment for testing agents, running workflows, and inspecting traces
-- **Server**: A production deployment target that runs your Mastra application as an API server
+Response:
 
-Learn more in the [Mastra platform documentation](https://mastra.ai/docs/mastra-platform/overview).
+```json
+{
+  "answer": "You spent ₹4,075.17 on food in March 2025."
+}
+```
+
+---
+
+## Evaluation
+
+Run:
+
+```bash
+npx tsx src/eval/eval.ts
+```
+
+The evaluation suite covers:
+
+* Single lookup
+* Date filtering
+* Merchant queries
+* Spending analysis
+* Fund returns
+* Holding returns
+* Recurring subscriptions
+* Portfolio valuation
+* No-data handling
+
+---
+
+## Deployment
+
+Public URL:
+
+```text
+<ADD_DEPLOYMENT_URL_HERE>
+```
+
+---
+
+## Known Limitations
+
+* Relative date interpretation uses predefined rules.
+* Merchant normalization is rule-based.
+* Async background job execution is not implemented.
+* Answers depend on available data in the database.
+
+---
+
+## Author
+
+Ketan Sutar
