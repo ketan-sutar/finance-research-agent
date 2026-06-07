@@ -1,61 +1,109 @@
-# Finance Research Agent (Tara)
+# 💰 Finance Research Agent (Tara)
 
-## Overview
+A finance research agent that answers natural language questions about transactions, investments, funds, and portfolio performance using real data stored in PostgreSQL.
 
-Tara is a finance-research agent built using Mastra, PostgreSQL, and OpenAI. It answers natural language questions about personal finance data, including spending analysis, merchant insights, fund performance, portfolio valuation, and holding returns.
-
-The agent uses tool calling to retrieve and compute real values from PostgreSQL and never generates financial figures without database-backed evidence.
+Built as part of the **Provue Engineering Take-Home Assignment**.
 
 ---
 
-## Features
+## 🚀 Features
 
-* Transaction search and filtering
-* Category-wise spending analysis
-* Merchant spend analysis
-* Fund period return calculations
+### Transaction Analytics
+
+* Search and filter transactions
+* Merchant-level spending analysis
+* Category-wise spending breakdown
+* Date-range filtering
+* Refund-aware calculations
+* Transfer exclusion from spending metrics
+
+### Investment Analytics
+
+* Fund return calculations
 * Portfolio valuation
-* Holding realised return calculations
+* Holding realized return calculations
+* Investment performance tracking
+
+### Smart Insights
+
 * Recurring subscription detection
-* Transfer exclusion from spending calculations
-* Refund-aware spending calculations
-* No-data handling
-* Evaluation suite with automated tests
+* Natural language question answering
+* Database-backed responses only
+* Graceful no-data handling
+
+### Evaluation Suite
+
+* Automated test scenarios
+* Accuracy validation
+* Tool-level verification
 
 ---
 
-## Technology Stack
+## 🏗️ Tech Stack
 
-* TypeScript
-* Mastra SDK
-* PostgreSQL
-* OpenAI
-* Express
+| Technology | Purpose                    |
+| ---------- | -------------------------- |
+| TypeScript | Application development    |
+| Mastra SDK | Agent framework            |
+| PostgreSQL | Data storage               |
+| OpenAI     | Tool-calling and reasoning |
+| Express.js | API server                 |
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
-src/
-├── agent/
-├── tools/
-├── db/
-├── routes/
-├── eval/
-
-scripts/
-├── ingest.ts
-
-data/
-├── sample_a/
-├── sample_b/
-└── sample_c/
+finance-research-agent/
+│
+├── src/
+│   ├── agent/
+│   │   └── tara.ts
+│   │
+│   ├── tools/
+│   │   ├── spending.ts
+│   │   ├── merchant.ts
+│   │   ├── funds.ts
+│   │   ├── holdings.ts
+│   │   └── portfolio.ts
+│   │
+│   ├── db/
+│   │   └── db.ts
+│   │
+│   ├── routes/
+│   │   └── ask.ts
+│   │
+│   ├── eval/
+│   │   └── eval.ts
+│   │
+│   └── server.ts
+│
+├── scripts/
+│   └── ingest.ts
+│
+├── data/
+│   ├── sample_a/
+│   ├── sample_b/
+│   └── sample_c/
+│
+├── .env
+├── package.json
+└── README.md
 ```
 
 ---
 
-## Installation
+## ⚙️ Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/finance-research-agent.git
+
+cd finance-research-agent
+```
+
+### 2. Install Dependencies
 
 ```bash
 npm install
@@ -63,41 +111,57 @@ npm install
 
 ---
 
-## Environment Variables
+## 🔑 Environment Variables
 
-Create a `.env` file:
+Create a `.env` file in the project root:
 
 ```env
 DATABASE_URL=postgres://postgres:password@localhost:5432/provue_tara
-OPENAI_API_KEY=your_key
+
+OPENAI_API_KEY=your_openai_api_key
 ```
 
 ---
 
-## Database Setup
+## 🗄️ Database Setup
 
-Create the database:
+### Create PostgreSQL Database
 
 ```bash
 createdb provue_tara
 ```
 
-Run ingest:
+### Import Sample Data
+
+Sample datasets are provided inside the `data` directory.
 
 ```bash
 DATA_DIR=./data/sample_a
+
 npx tsx scripts/ingest.ts
 ```
 
+You can replace `sample_a` with:
+
+```text
+sample_a
+sample_b
+sample_c
+```
+
+depending on the dataset you want to load.
+
 ---
 
-## Running the Application
+## ▶️ Running the Application
+
+Start the development server:
 
 ```bash
 npm run dev
 ```
 
-Server starts on:
+Server will run at:
 
 ```text
 http://localhost:3000
@@ -105,11 +169,15 @@ http://localhost:3000
 
 ---
 
-## API
+## 🔌 API Usage
 
-### POST /ask
+### Endpoint
 
-Request:
+```http
+POST /ask
+```
+
+### Request
 
 ```json
 {
@@ -117,7 +185,7 @@ Request:
 }
 ```
 
-Response:
+### Response
 
 ```json
 {
@@ -127,47 +195,136 @@ Response:
 
 ---
 
-## Evaluation
+## 💬 Example Questions
 
-Run:
+### Spending Analysis
+
+```text
+How much did I spend on food in March 2025?
+
+What were my top spending categories last month?
+
+How much did I spend at Starbucks this year?
+```
+
+### Investment Analysis
+
+```text
+What is my portfolio value?
+
+How much has my SBI Bluechip Fund grown?
+
+What is my realized return from Infosys shares?
+```
+
+### Subscription Detection
+
+```text
+Do I have any recurring subscriptions?
+
+Which subscriptions cost me the most?
+```
+
+---
+
+## 🧪 Evaluation
+
+Run the evaluation suite:
 
 ```bash
 npx tsx src/eval/eval.ts
 ```
 
-The evaluation suite covers:
+### Covered Scenarios
 
-* Single lookup
+* Transaction lookup
 * Date filtering
 * Merchant queries
-* Spending analysis
+* Spending calculations
 * Fund returns
 * Holding returns
-* Recurring subscriptions
 * Portfolio valuation
+* Recurring subscriptions
 * No-data handling
 
 ---
 
-## Deployment
+## 🌐 Deployment
 
-Public URL:
+### Live API
 
 ```text
-<ADD_DEPLOYMENT_URL_HERE>
+https://finance-research-agent-production-b0af.up.railway.app/ask
+```
+
+### Example Request
+
+```bash
+curl -X POST \
+https://finance-research-agent-production-b0af.up.railway.app/ask \
+-H "Content-Type: application/json" \
+-d '{"question":"What is my portfolio value?"}'
 ```
 
 ---
 
-## Known Limitations
+## 🔄 System Workflow
 
-* Relative date interpretation uses predefined rules.
-* Merchant normalization is rule-based.
-* Async background job execution is not implemented.
-* Answers depend on available data in the database.
+```text
+User Question
+      │
+      ▼
+   Express API
+      │
+      ▼
+  Tara Agent (Mastra)
+      │
+      ▼
+ Tool Selection
+      │
+      ▼
+ PostgreSQL Queries
+      │
+      ▼
+ Computation Layer
+      │
+      ▼
+ Final Answer
+```
 
 ---
 
-## Author
+## ⚠️ Known Limitations
 
-Ketan Sutar
+* Relative date parsing uses predefined rules.
+* Merchant normalization is rule-based.
+* No background job processing.
+* Answers are limited to the data available in the database.
+* Portfolio calculations assume valid NAV and holding data.
+
+---
+
+## 🔮 Future Improvements
+
+* Semantic merchant matching
+* Multi-user support
+* Authentication and authorization
+* Streaming responses
+* Advanced financial analytics
+* Historical portfolio performance charts
+* Caching layer for faster queries
+
+---
+## 🏗️ System Architecture
+
+[![View on Eraser](https://app.eraser.io/workspace/M32sKvBDrWjPdpDB0lIL/preview?diagram=xa5ovBfTpMIsWqhZL8gT&type=embed)](https://app.eraser.io/workspace/M32sKvBDrWjPdpDB0lIL?diagram=xa5ovBfTpMIsWqhZL8gT)
+
+The diagram illustrates the complete request lifecycle from user query → API → Tara Agent → Tools → PostgreSQL → grounded response.
+
+---
+
+## 👨‍💻 Author
+
+**Ketan Sutar**
+
+Built for the Provue Engineering Assignment.
