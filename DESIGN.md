@@ -634,4 +634,7 @@ Coverage includes:
 * Fund benchmarking
 
 ```
+
 ```
+## Database Design
+![System Architecture](./docs/db-schema.png)
