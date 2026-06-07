@@ -1,53 +1,58 @@
-import express from "express";
-import crypto from "crypto";
+// import express from "express";
+// import crypto from "crypto";
 
-import { logAgent } from "../utils/logger";
+// import { logAgent } from "../utils/logger";
 import { taraAgent } from "../mastra/agents/tara.agent";
 
-const router = express.Router();
+export async function askTara(question: string) {
+  const result = await taraAgent.generate(question);
 
-router.post("/ask", async (req, res) => {
-  const start = Date.now();
+  return result.text;
+}
 
-  const requestId = crypto.randomUUID();
+// const router = express.Router();
 
-  const { question } = req.body;
+// router.post("/ask", async (req, res) => {
+//   const start = Date.now();
 
-  if (!question) {
-    return res.status(400).json({
-      error: "Question is required",
-    });
-  }
+//   const requestId = crypto.randomUUID();
 
-  try {
-    const result = await taraAgent.generate(question);
+//   const { question } = req.body;
 
-    logAgent({
-      request_id: requestId,
-      question,
-      latency_ms: Date.now() - start,
-      status: "success",
-    });
+//   if (!question) {
+//     return res.status(400).json({
+//       error: "Question is required",
+//     });
+//   }
 
+//   try {
+//     const result = await taraAgent.generate(question);
 
-    return res.json({
-      answer: result.text,
-    });
-  } catch (err: any) {
-    console.error("ASK_ERROR:", err);
+//     logAgent({
+//       request_id: requestId,
+//       question,
+//       latency_ms: Date.now() - start,
+//       status: "success",
+//     });
 
-    logAgent({
-      request_id: requestId,
-      question,
-      latency_ms: Date.now() - start,
-      status: "failure",
-      error: err.message,
-    });
+//     return res.json({
+//       answer: result.text,
+//     });
+//   } catch (err: any) {
+//     console.error("ASK_ERROR:", err);
 
-    return res.status(500).json({
-      error: "internal error",
-    });
-  }
-});
+//     logAgent({
+//       request_id: requestId,
+//       question,
+//       latency_ms: Date.now() - start,
+//       status: "failure",
+//       error: err.message,
+//     });
 
-export default router;
+//     return res.status(500).json({
+//       error: "internal error",
+//     });
+//   }
+// });
+
+// export default router;

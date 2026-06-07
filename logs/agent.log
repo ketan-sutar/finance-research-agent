@@ -139,3 +139,7 @@
 {"request_id":"779acab3-46e6-452d-93c5-18376add21b7","question":"What is my portfolio value?","latency_ms":4149,"status":"success"}
 {"request_id":"99d12ad0-5778-4c20-9128-ab72d5185aa6","question":"Did I spend more on travel or food?","latency_ms":11822,"status":"success"}
 {"request_id":"981b38b1-110f-405f-a2ad-bdf32b9e22d7","question":"Show recurring payments","latency_ms":4161,"status":"success"}
+{"request_id":"40fd186d-34cd-40da-ba19-a59ef2bdbbbc","question":"How much did I spend on food in March 2025?","latency_ms":9087,"status":"sucess"}
+{"request_id":"8ed4802a-e253-4991-a2c7-f92ee2800c62","question":"What was my highest expense last month?","latency_ms":24405,"status":"sucess"}
+{"request_id":"40c90217-6d1a-40f7-a72c-6cee01300bf2","question":"What is my portfolio value?","latency_ms":5415,"status":"sucess"}
+{"timestamp":"2026-06-07T05:23:13.615Z","request_id":"e0301a3a-9a0e-4912-806e-6057826e2c55","question":"What is my portfolio value?","latency_ms":7269,"status":"success"}
