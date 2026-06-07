@@ -317,8 +317,7 @@ User Question
 ---
 ## 🏗️ System Architecture
 
-[![View on Eraser](https://app.eraser.io/workspace/M32sKvBDrWjPdpDB0lIL/preview?diagram=xa5ovBfTpMIsWqhZL8gT&type=embed)](https://app.eraser.io/workspace/M32sKvBDrWjPdpDB0lIL?diagram=xa5ovBfTpMIsWqhZL8gT)
-
+![System Architecture](./docs/architecture.png)
 The diagram illustrates the complete request lifecycle from user query → API → Tara Agent → Tools → PostgreSQL → grounded response.
 
 ---
