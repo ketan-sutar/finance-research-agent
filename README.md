@@ -315,6 +315,13 @@ User Question
 * Caching layer for faster queries
 
 ---
+## 🏗️ System Architecture
+
+[![View on Eraser](https://app.eraser.io/workspace/M32sKvBDrWjPdpDB0lIL/preview?diagram=xa5ovBfTpMIsWqhZL8gT&type=embed)](https://app.eraser.io/workspace/M32sKvBDrWjPdpDB0lIL?diagram=xa5ovBfTpMIsWqhZL8gT)
+
+The diagram illustrates the complete request lifecycle from user query → API → Tara Agent → Tools → PostgreSQL → grounded response.
+
+---
 
 ## 👨‍💻 Author
 
