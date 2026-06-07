@@ -317,7 +317,7 @@ User Question
 ---
 ## 🏗️ System Architecture
 
-[![System Architecture](./docs/architecture.png)
+![System Architecture](./docs/architecture.png)
 The diagram illustrates the complete request lifecycle from user query → API → Tara Agent → Tools → PostgreSQL → grounded response.
 
 ---
